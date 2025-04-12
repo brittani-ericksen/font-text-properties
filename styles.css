@@ -29,12 +29,12 @@
 
 body{
 	/* set the font family to Lato, Arial, sans-serif (--body-fonts) */
-	/* Set the line height to 1.5 */
-	/* set the font size to 1.1rem	*/
-	/* set the font color to #222 (--dk-gray) */
 	font-family: var(--body-fonts);
+	/* Set the line height to 1.5 */
 	line-height: 1.5;
+	/* set the font size to 1.1rem	*/
 	font-size: 1.1rem;
+	/* set the font color to #222 (--dk-gray) */
 	color: var(--dk-gray);
 	margin: 0;
 	padding: 0;
@@ -49,10 +49,10 @@ header{
 
 h1, h2, h3{
 	/* center align the text */
-	/* use a web font here (instructions on page) */
-	/* make the heading text all small caps style */
 	text-align: center;
+	/* use a web font here (instructions on page) */
 	font-family: var(--heading-fonts);
+	/* make the heading text all small caps style */
 	font-variant: small-caps;
 }
 
@@ -86,14 +86,14 @@ nav a{
 	padding: 1rem;
 	background-color: var(--tiffany);
 	/* set the font color to #222 (--dk-gray) */
-	/* center align the text */
-	/* remove the underline */
-	/* make the font's size 1.2rem */
-	/* make the font bolder (600) */
 	color: var(--dk-gray);
+	/* center align the text */
 	text-align: center;
+	/* remove the underline */
 	text-decoration: none;
+	/* make the font's size 1.2rem */
 	font-size: 1.2rem;
+	/* make the font bolder (600) */
 	font-weight: 600;
 }
 
@@ -116,10 +116,10 @@ section{
 
 p{
 	/* set a max-width of 55 characters */
-	/* add an indent on the first line of 2rem */
-	/* center those paragraphs (not the text) on the page */
 	max-width: 55ch;
+	/* add an indent on the first line of 2rem */
 	text-indent: 2rem;
+	/* center those paragraphs (not the text) on the page */
 	margin: 0 auto;
 	padding: 0.5rem;
 }
